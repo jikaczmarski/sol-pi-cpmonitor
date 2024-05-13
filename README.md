@@ -23,4 +23,11 @@ And call the script
 ./start.sh
 ```
 ## Option 2: Start on boot
-You can use systemd to run the service on start so that the monitors begin reporting after reboot. To do this, run the `service_config.sh` file *after* running the commands in [setup](#setup) section. This file creates a process and enables it on boot.
+You can use systemd to run the service on start so that the monitors begin reporting after reboot. To do this, run the `service_config.sh` file *after* running the commands in [setup](#setup) section,
+
+```
+chmod u+x ~/Projects/voltage_monitor/service_config.sh
+~/Projects/voltage_monitor/service_config.sh
+```
+
+ This file creates a process and enables it on boot.
