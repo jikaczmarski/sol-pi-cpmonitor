@@ -30,4 +30,4 @@ chmod u+x ~/Projects/voltage_monitor/service_config.sh
 ~/Projects/voltage_monitor/service_config.sh
 ```
 
- This file creates a process and enables it on boot.
+ This file creates a service, enables it on boot, and starts it so no reboot is required.
